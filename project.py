@@ -1,39 +1,39 @@
 # Calculator ;
 
-number1 = float(input("Enter the first number: "))
-number2 = float(input("Enter the second number: "))
-operator = input("Enter the operator (+, -, *, /): ")
+number1 = float(input("Enter the first number : "))
+number2 = float(input("Enter the second number : "))
+operator = input("Enter the operator (+, -, *, /) : ")
 
-if operator == "+":
+if operator == "+" :
     result = number1 + number2
-elif operator == "-":
+elif operator == "-" :
     result = number1 - number2
-elif operator == "*":
+elif operator == "*" :
     result = number1 * number2
-elif operator == "/":
+elif operator == "/" :
     result = number1 / number2
 else:
-    print("Invalid operator!")
+    print("Invalid operator !")
 
-print("Result:", result)
+print("Result :", result)
 
 try:
-    number1 = float(input("Enter the first number: "))
-    number2 = float(input("Enter the second number: "))
-    operator = input("Enter the operator (+, -, *, /): ")
+    number1 = float(input("Enter the first number : "))
+    number2 = float(input("Enter the second number : "))
+    operator = input("Enter the operator (+, -, *, /) : ")
 
-    if operator == "+":
+    if operator == "+" :
         result = number1 + number2
-    elif operator == "-":
+    elif operator == "-" :
         result = number1 - number2
-    elif operator == "*":
+    elif operator == "*" :
         result = number1 * number2
-    elif operator == "/":
+    elif operator == "/" :
         result = number1 / number2
     else:
-        print("Invalid operator!")
+        print("Invalid operator !")
 
-    print("Result:", result)
+    print("Result :", result)
 
 except ValueError:
-    print("Invalid number input!")
+    print("Invalid number input !")
